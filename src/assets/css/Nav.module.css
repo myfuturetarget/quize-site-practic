@@ -22,3 +22,21 @@
   font-weight: 600;
   margin-left: 10px;
 }
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .logo {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #353b48;
+  }
+  .logoName {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 5px;
+    letter-spacing: -0.5px;
+  }
+
+  .logo_wrep {
+    margin-top: 6px;
+  }
+}

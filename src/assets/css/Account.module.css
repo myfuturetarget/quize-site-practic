@@ -48,3 +48,27 @@
 .signup_link2:hover {
   color: #176635;
 }
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .main_account {
+    width: 200px;
+  }
+  .account {
+    margin-top: 8px;
+  }
+
+  .userSpan {
+    font-size: 13px;
+  }
+
+  .account_icon {
+    font-size: 20px;
+  }
+
+  .account_icon2 {
+    font-size: 17px;
+    margin-right: 8px;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+}
