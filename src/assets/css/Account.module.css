@@ -1,0 +1,50 @@
+.main_account {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.userSpan {
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.account_icon {
+  font-size: 25px;
+}
+
+.account_icon2 {
+  cursor: pointer;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.signup_link {
+  color: #2dbf64;
+  transition: 0.3s;
+  font-size: 14px;
+}
+.signup_link:hover {
+  color: #176635;
+}
+
+.signup_link2 {
+  margin-right: 30px;
+  color: #2dbf64;
+  transition: 0.3s;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.signup_link2:hover {
+  color: #176635;
+}
