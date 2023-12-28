@@ -16,7 +16,7 @@ const Account = () => {
       {currentUser ? (
         <div>
           <div className={classes.main_account}>
-            <a href="#" title="Your Account" className={classes.account}>
+            <a href="" title="Your Account" className={classes.account}>
               <i
                 className={`fa-regular fa-circle-user ${classes.account_icon}`}
               ></i>
