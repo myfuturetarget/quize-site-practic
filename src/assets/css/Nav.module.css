@@ -13,27 +13,24 @@
 .logo {
   width: 40px;
   height: 40px;
-  border: 2px solid #353b48;
+  border: 2px solid #2dbf64;
   border-radius: 50px;
 }
 
 .logoName {
   font-size: 20px;
   font-weight: 600;
-  margin-left: 10px;
+  margin-left: 5px;
+  color: rgb(112, 77, 209);
 }
 
 @media only screen and (min-width: 200px) and (max-width: 767px) {
   .logo {
     width: 30px;
     height: 30px;
-    border: 1px solid #353b48;
   }
   .logoName {
     font-size: 14px;
-    font-weight: 600;
-    margin-left: 5px;
-    letter-spacing: -0.5px;
   }
 
   .logo_wrep {

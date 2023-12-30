@@ -19,6 +19,7 @@
 
 .account_icon {
   font-size: 25px;
+  color: #67dbae;
 }
 
 .account_icon2 {
@@ -27,26 +28,35 @@
   margin-right: 10px;
   margin-left: 10px;
   margin-top: 5px;
+  padding: 5px;
+  background: #ececec;
+  color: rgb(177, 61, 61);
 }
 
-.signup_link {
-  color: #2dbf64;
-  transition: 0.3s;
-  font-size: 14px;
-}
 .signup_link:hover {
-  color: #176635;
+  color: #ffffff;
+  background: linear-gradient(225deg, #5bc29a, #6ce6b7);
+  box-shadow: -5px 1px 7px #63d3a8, 5px -1px 7px #67dbae;
 }
 
 .signup_link2 {
   margin-right: 30px;
+  margin-left: 20px;
+}
+.signup_link,
+.signup_link2 {
   color: #2dbf64;
   transition: 0.3s;
   font-size: 14px;
-  margin-left: 20px;
+  background: #eeeeee;
+  padding: 8px;
+  border-radius: 5px;
 }
+
 .signup_link2:hover {
-  color: #176635;
+  color: #ffffff;
+  background: linear-gradient(225deg, #5bc29a, #6ce6b7);
+  box-shadow: -5px 1px 7px #63d3a8, 5px -1px 7px #67dbae;
 }
 
 @media only screen and (min-width: 200px) and (max-width: 767px) {
@@ -63,15 +73,10 @@
   }
   .account_icon {
     font-size: 20px;
-    color: #67dbae;
   }
 
   .account_icon2 {
-    padding: 5px;
     font-size: 17px;
-    border-radius: 5px;
-    background: #ececec;
-    color: rgb(177, 61, 61);
   }
 
   .signup_link {
@@ -80,7 +85,6 @@
 
   .signup_link,
   .signup_link2 {
-    color: #2dbf64;
     transition: 0.3s;
     font-size: 14px;
     background: #eeeeee;
@@ -88,20 +92,9 @@
     border-radius: 5px;
   }
 
-  .signup_link:hover {
-    color: #ffffff;
-    background: linear-gradient(225deg, #5bc29a, #6ce6b7);
-    box-shadow: -5px 1px 7px #63d3a8, 5px -1px 7px #67dbae;
-  }
-
   .signup_link2 {
     margin-left: 0px;
     margin-right: 0px;
-  }
-  .signup_link2:hover {
-    color: #ffffff;
-    background: linear-gradient(225deg, #5bc29a, #6ce6b7);
-    box-shadow: -5px 1px 7px #63d3a8, 5px -1px 7px #67dbae;
   }
 
   .link_main {
