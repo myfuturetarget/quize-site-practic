@@ -57,6 +57,9 @@ const Videos = () => {
       {!loading && videos.length === 0 && <div>No data found!</div>}
       {error && <div>There was an error!</div>}
       {loading && <div>Loading...</div>}
+      <hr />
+      <br />
+      <br />
     </div>
   );
 };

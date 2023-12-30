@@ -52,6 +52,7 @@
 @media only screen and (min-width: 200px) and (max-width: 767px) {
   .main_account {
     width: 200px;
+    margin-top: -5px;
   }
   .account {
     margin-top: 8px;
@@ -60,15 +61,50 @@
   .userSpan {
     font-size: 13px;
   }
-
   .account_icon {
     font-size: 20px;
+    color: #67dbae;
   }
 
   .account_icon2 {
+    padding: 5px;
     font-size: 17px;
-    margin-right: 8px;
-    margin-left: 5px;
-    margin-top: 10px;
+    border-radius: 5px;
+    background: #ececec;
+    color: rgb(177, 61, 61);
+  }
+
+  .signup_link {
+    margin-right: 15px;
+  }
+
+  .signup_link,
+  .signup_link2 {
+    color: #2dbf64;
+    transition: 0.3s;
+    font-size: 14px;
+    background: #eeeeee;
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  .signup_link:hover {
+    color: #ffffff;
+    background: linear-gradient(225deg, #5bc29a, #6ce6b7);
+    box-shadow: -5px 1px 7px #63d3a8, 5px -1px 7px #67dbae;
+  }
+
+  .signup_link2 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .signup_link2:hover {
+    color: #ffffff;
+    background: linear-gradient(225deg, #5bc29a, #6ce6b7);
+    box-shadow: -5px 1px 7px #63d3a8, 5px -1px 7px #67dbae;
+  }
+
+  .link_main {
+    margin: 3px 0 0 0;
   }
 }

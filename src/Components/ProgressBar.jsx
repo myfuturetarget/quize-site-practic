@@ -36,7 +36,7 @@ const ProgressBar = ({ next, prev, submit, progress }) => {
         </div>
       </div>
       <Button
-        className={classes.next}
+        className={`${classes.next} ${classes.arrowB2}`}
         onClick={progress === 100 ? submit : next}
         // quizeHandle={progress === 100 ? submit : next}
       >

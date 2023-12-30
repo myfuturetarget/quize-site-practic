@@ -34,7 +34,7 @@ const MiniPlayer = ({ id }) => {
       ></i>
       <ReactPlayer
         url={videoUrl}
-        width={'300px'}
+        width={'292px'}
         height={'168px'}
         playing={status}
         controls

@@ -1,8 +1,8 @@
 .miniPlayer {
-  width: 320px;
+  width: 315px;
   position: fixed;
   bottom: 100px;
-  right: 50px;
+  right: 22px;
   background-color: #fff;
   padding: 10px;
   box-sizing: border-box;
@@ -10,12 +10,12 @@
   border-radius: 5px;
 }
 
-.miniPlayer img {
+/* .miniPlayer img {
   width: 300px;
   aspect-ratio: 16 / 9;
   object-fit: cover;
   animation: miniplayerAnim 0.3s ease forwards;
-}
+} */
 
 .miniPlayer .open {
   display: none;

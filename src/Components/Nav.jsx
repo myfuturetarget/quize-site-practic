@@ -12,7 +12,7 @@ const Nav = () => {
           <li>
             <Link className={classes.logo_wrep} to="/">
               <img className={classes.logo} src={logo} alt="Project Logo" />
-              <h3 className={classes.logoName}>Dynamic Goal Dev</h3>
+              <h3 className={classes.logoName}>DGFI`</h3>
             </Link>
           </li>
         </ul>

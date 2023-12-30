@@ -25,7 +25,7 @@ const Account = () => {
               </span>
             </a>
 
-            <a title="logout" onClick={logoutFunc}>
+            <a title="logout" onClick={logoutFunc} className={classes.logoutb}>
               <i
                 className={`fa-solid fa-right-from-bracket ${classes.account_icon2}`}
               ></i>
@@ -47,12 +47,14 @@ const Account = () => {
         </div>
       ) : (
         <>
-          <Link className={classes.signup_link} to="/signup">
-            Signup
-          </Link>
-          <Link className={classes.signup_link2} to="/login">
-            Login
-          </Link>
+          <div className={classes.link_main}>
+            <Link className={classes.signup_link} to="/signup">
+              Signup
+            </Link>
+            <Link className={classes.signup_link2} to="/login">
+              Login
+            </Link>
+          </div>
         </>
       )}
     </div>
